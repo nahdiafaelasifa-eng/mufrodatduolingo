@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Noto+Naskh+Arabic:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+:root{--cream:#f8f7f1;--green:#315c48;--sage:#e5eee5;--ink:#1f3028}
+*{box-sizing:border-box}
+body{margin:0;background:var(--cream);color:var(--ink);font-family:'DM Sans',sans-serif}
+.arabic{font-family:'Noto Naskh Arabic',serif;direction:rtl}
+button{cursor:pointer}

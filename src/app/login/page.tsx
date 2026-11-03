@@ -1,0 +1,3 @@
+import Link from "next/link";
+import AuthButton from "@/components/AuthButton";
+export default function Login(){return <main className="flex min-h-screen items-center justify-center px-6"><div className="w-full max-w-md rounded-3xl border border-[#e2e9df] bg-white p-8 shadow-sm"><Link href="/" className="text-sm font-bold text-[#52795a]">← Beranda</Link><div className="arabic mt-6 text-center text-4xl text-[#315c48]" dir="rtl">مَرْحَبًا</div><h1 className="mt-3 text-center text-2xl font-extrabold">Masuk ke Marhaban</h1><p className="mb-6 mt-2 text-center text-sm text-[#829084]">Lanjutkan perjalanan belajar bahasa Arabmu.</p><AuthButton/><p className="mt-5 text-center text-xs text-[#829084]">Akun Supabase perlu disiapkan sebelum login dapat digunakan.</p></div></main>}
